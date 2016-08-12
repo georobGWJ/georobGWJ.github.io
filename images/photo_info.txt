@@ -13,3 +13,7 @@ bay_bridge_at_night.jpg
 Courtesy of California Department of Transportation 
 http://baybridgeinfo.org/visit-bridge
 http://baybridgeinfo.org/sites/default/files/imagecache/fullscreen_bg/images/background/front/new_front4.jpg
+
+east_section_EQ_damage.jpg
+http://earthquake.usgs.gov/earthquakes/states/events/1989_10_18.php
+http://earthquake.usgs.gov/earthquakes/states/events/images/1989_10_18/lp_09.jpg
