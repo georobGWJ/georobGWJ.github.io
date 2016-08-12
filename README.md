@@ -20,7 +20,8 @@ This is a standard html page opening. DOCTYPE tells a browser or interpreter tha
 
 Standard html head tag. This title is what the browser tab will be labeled.
 
-```<body>
+```
+<body>
 ```
 
 The body tag opens the main body of the page.
@@ -44,7 +45,8 @@ I used Header 1 to make the primary title for the page content.
 The section tag creates sections in a document, such as chapters, headers, footers, or any other sections of the document. Since I had four main pieces of content, I encapsulated them in sections. h2 is Header 2 and p is a paragraph.
 
  
-```   <figure>
+```   
+      <figure>
         <img src="images/bay_bridge_at_night.jpg" alt="Bay Bridge at Dusk" height="640" width="955" />
         <figcaption>Bay Bridge at Dusk</figcaption>
       </figure>
@@ -56,7 +58,8 @@ The img tag inserts an image file. I added height and width attributes to resize
 
 The figcaption tag created a caption for an associated image. If img and figcaption are used together they must be encapsulated in a figure tag block.
 
-```<hr>
+```
+<hr>
 ```
 
 The hr tag creates a horizontal rule like. I used it to make it easier to see where sections ended.
@@ -86,7 +89,8 @@ This is the code for a table. The table tag encapsulates the table. tr tags are 
 
         
 
-```   <ul>
+```   
+      <ul>
         <li>Deepest Bridge Pier: 242 feet below water level - 396 feet high</li>
         <li>Tunnel: Largest bore tunnel in the world: 76 ft wide, 58 ft high, 1700 ft long</li>
         <li>Opened: November 12, 1936</li>
@@ -113,7 +117,8 @@ ul creates an unordered list and li encapsulates list elements.
 
 I created a simple form block for a page rating form. The action attribute tells the browser where to pass the data to and go to once the form is submitted. The input tag defines user input elements. The type attribute indicates the kind of input (radio buttons, text, passwords, etc.). The name attribute is the 'variable' name that will be passed to the page defined by the action tag. The value tag for radio buttons indicates the content of the 'variable', in this case it will pass "yes", "maybe", or "no". For the text input field the size attribute indicates the maximum length that the input can be. The button tag provides a means of submitting the form since type="submit". This triggers the action page.
 
-``` <nav>
+``` 
+    <nav>
       <h2>Additional Links</h2>
       <a href="caltrans_site_eval.html"><b>My Evaluation of a Similar Bay Bridge Website</b></a>
     </nav>
@@ -122,7 +127,8 @@ I created a simple form block for a page rating form. The action attribute tells
 nav blocks are typically used to provide links or other navigational items. The a tag encapsulates links
 
 
-```<footer>
+```
+   <footer>
      <h3>Image Sources</h3>
      <cite>
        <p>
