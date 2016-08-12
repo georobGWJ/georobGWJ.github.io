@@ -25,7 +25,8 @@ Standard html head tag. This title is what the browser tab will be labeled.
 
 The body tag opens the main body of the page.
 
-```<h1>San Francisco - Oakland Bay Bridge:<br />
+```
+<h1>San Francisco - Oakland Bay Bridge:<br />
         The Best Bridge in the Bay Area</h1>
 ```
 
@@ -61,7 +62,8 @@ The figcaption tag created a caption for an associated image. If img and figcapt
 The hr tag creates a horizontal rule like. I used it to make it easier to see where sections ended.
 
   
-```   <table border = 1>
+```   
+      <table border = 1>
         <tr>
           <th colspan = 4>West Bay Suspension Bridge</th>
         </tr>
@@ -77,7 +79,7 @@ The hr tag creates a horizontal rule like. I used it to make it easier to see wh
           <td align="center">2,310 ft</td>
           <td align="center">526 ft</td>
         </tr>
-        </table>
+      </table>
 ```
 
 This is the code for a table. The table tag encapsulates the table. tr tags are rows. th tags are column headers. The colspan attribute tells the browser how many columns the element should span. The align attribute tells the browser how to position the content within the element.
@@ -97,7 +99,8 @@ ul creates an unordered list and li encapsulates list elements.
 
 
 
-```   <form action="http://httpbin.org/get">
+```   
+      <form action="http://httpbin.org/get">
         <b>Did this site provide the information you wanted?</b><br />
         <input type="radio" name="info_rating" value="yes"> Yes!<br />
         <input type="radio" name="info_rating" value="maybe"> Kind of...<br />
