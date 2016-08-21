@@ -1,0 +1,87 @@
+h1 {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.primary_info  {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.site_analysis {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1em;
+}
+
+/*h2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}*/
+
+main > section {
+  max-width: 80%;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+img {
+  max-width: 70%;
+}
+
+#rate_me {
+  font-family: "Arial", Gadget, sans-serif;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  max-width: 60%;
+  display: block;
+  margin: auto;
+}
+
+button {
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 1.1em;
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+}
+
+nav {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.2em;
+  display: block;
+  max-width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+  font-size: 1.2em;
+  border: 5px rgba(0,0,0,0);
+  border-radius: 10px;
+  padding: 3px;
+  background: rgba(0,0,0,0.1);
+}
+

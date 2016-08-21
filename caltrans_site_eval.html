@@ -3,49 +3,49 @@
 <html lang="en">
   <head>
     <title>Website Evaluation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
 
   <body>
-  <h1>Evaluation of a Caltrans Bay Bridge Website</h1>
-  <p>For this evaluation, I looked at the Caltrans site <a href="http://www.dot.ca.gov/hq/esc/tollbridge/SFOBB/Sfobbfacts.html">THE SAN FRANCISCO/OAKLAND BAY BRIDGE</a></p>
+  <main class="site_analysis">
+    <h1>Evaluation of a Caltrans Bay Bridge Website</h1>
+    <p>For this evaluation, I looked at the Caltrans site <a href="http://www.dot.ca.gov/hq/esc/tollbridge/SFOBB/Sfobbfacts.html">THE SAN FRANCISCO/OAKLAND BAY BRIDGE</a></p>
 
-  <section>
-    <h3>What makes this site good or bad?</h3>
-    <p>The content on this site provides a useful overview of the history of the Bay Bridge and of some of the key facts about it. However, the formatting on this webpage is <em>very</em> simple and that makes it difficult to mentally parse in some sections. The Facts at a Glance section is the most egregious; it is difficult to easily see where information about one structure ends and another begins. I tried to make this a little clearer on my main page by using tables and lists.</p>
+    <section>
+      <h3>What makes this site good or bad?</h3>
+      <p>The content on this site provides a useful overview of the history of the Bay Bridge and of some of the key facts about it. However, the formatting on this webpage is <em>very</em> simple and that makes it difficult to mentally parse in some sections. The Facts at a Glance section is the most egregious; it is difficult to easily see where information about one structure ends and another begins. I tried to make this a little clearer on my main page by using tables and lists.</p>
 
-    <p>Another issue with the website is that the information is not meaningfully semantically labeled with tags. All of the historical section labels are paragraphs with bold text tags; for example: </p>
-    <code> < p >< b >CONSTRUCTING THE IMPOSSIBLE< /b >< /p > </code>
+      <p>Another issue with the website is that the information is not meaningfully semantically labeled with tags. All of the historical section labels are paragraphs with bold text tags; for example: </p>
+      <code> < p >< b >CONSTRUCTING THE IMPOSSIBLE< /b >< /p > </code>
 
-    <p>It would be more semantically meaningful to tag these as headers or possibly even as sections.</p>
+      <p>It would be more semantically meaningful to tag these as headers or possibly even as sections.</p>
 
-    <p>Lastly, there is no navigational data on the site. It doesn't point back to its parent site or to any references.</p>
-  </section>
+      <p>Lastly, there is no navigational data on the site. It doesn't point back to its parent site or to any references.</p>
+    </section>
 
-  <hr>
+    <section>
+      <h3>Look at the source code (View Source). Do you recognize any HTML elements?</h3>
+      <p>I recognize virtually all of the HTML elements. Tags the site uses that I recognize include:</p>
+      <ul>
+        <li><code>< html >< /html ></code></li>
+        <li><code>< head >< /head ></code></li>
+        <li><code>< title >< /title ></code></li>
+        <li><code>< body >< /body ></code></li>
+        <li><code>< h2 >< /h2 ></code></li>
+        <li><code>< h3 >< /h3 ></code></li>
+        <li><code>< p >< /p ></code></li>
+        <li><code>< b >< /b ></code></li>
+      </ul>
 
-  <section>
-    <h3>Look at the source code (View Source). Do you recognize any HTML elements?</h3>
-    <p>I recognize virtually all of the HTML elements. Tags the site uses that I recognize include:</p>
-    <ul>
-      <li><code>< html >< /html ></code></li>
-      <li><code>< head >< /head ></code></li>
-      <li><code>< title >< /title ></code></li>
-      <li><code>< body >< /body ></code></li>
-      <li><code>< h2 >< /h2 ></code></li>
-      <li><code>< h3 >< /h3 ></code></li>
-      <li><code>< p >< /p ></code></li>
-      <li><code>< b >< /b ></code></li>
-    </ul>
+      <p>Tags the site uses that I don't immediately recognize include:</p>
+      <ul>
+        <li><code>< meta / ></code></li> - I would guess that the meta pages these tags are pointing towards contain website specific XML and CSS syles.
+        <li><code>style="text-align:center"</code></li> - I would guess that this is a way of aligning these particular blocks of text according to the CSS styles defined by the meta tags.
+      </ul>
 
-    <p>Tags the site uses that I don't immediately recognize include:</p>
-    <ul>
-      <li><code>< meta / ></code></li> - I would guess that the meta pages these tags are pointing towards contain website specific XML and CSS syles.
-      <li><code>style="text-align:center"</code></li> - I would guess that this is a way of aligning these particular blocks of text according to the CSS styles defined by the meta tags.
-    </ul>
+    </section>
 
-  </section>
-
-  <hr>
+  </main>
 
   <footer>
     <nav>
